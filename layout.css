@@ -1,9 +1,9 @@
 /* Specificity (0,0,1)*/
 body {
   display: grid;
-  grid-gap: 0.6rem 3.1rem;
+  grid-gap: 10px 28px;
   grid-template-columns:
-    12.5rem auto;
+    20px auto;
   grid-template-rows:
     auto auto auto auto;
 }
