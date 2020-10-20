@@ -1,0 +1,29 @@
+/* Specificity (0,0,1)*/
+body {
+  display: grid;
+  grid-gap: 0.6rem 3.1rem;
+  grid-template-columns:
+    12.5rem auto;
+  grid-template-rows:
+    auto auto auto auto;
+}
+
+/* Specificity (0,0,1)*/
+nav { 
+  grid-column: 1;
+}
+
+/* Specificity (0,0,1)*/
+header {
+  grid-column: 2;
+}
+
+/* Specificity (0,0,1)*/
+section {
+  grid-column: 2;
+}
+
+/* Specificity (0,0,1)*/
+footer {
+  grid-column: 2;
+}
